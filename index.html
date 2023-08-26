@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio ToDo Javier Figueroa</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Mis cosas por hacer 📝</h1>
+    <div class="container">
+      <label for="item-input">ToDo</label>
+      <input type="text" id="item-input" placeholder="ej... ir de compras" />
+      <button id="add-item-btn">Agregar</button>
+      <h3>Resumen</h3>
+      <div>
+        <span class="total-task">Realizadas:</span>
+        <span class="done-task">Total: </span>
+      </div>
+      <div class="test">
+        <p>ID</p>
+        <p>Tarea</p>
+      </div>
+      <ul id="list"></ul>
+    </div>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
