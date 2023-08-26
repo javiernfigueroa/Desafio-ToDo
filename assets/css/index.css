@@ -1,103 +1,101 @@
-html, body, *{
-    box-sizing: border-box;
-    font-family: 'Karla', sans-serif
+html,
+body,
+* {
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
 }
 
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 
 h3 {
-    margin: 0;
+  margin: 0;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    width: 200px;
-    margin: 0 auto;
-    text-align: center;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 #list {
-    margin: 0;
+  margin: 0;
 }
 
 .list-item {
-    display: flex;
-    align-items: center;
-    border: 2px solid skyblue;
-    padding: 8px 0;
-    background-color: whitesmoke;
-    font-weight: bold;
-    margin-bottom: 10px;
-    width: 300px;
+  display: flex;
+  align-items: center;
+  border: 2px solid skyblue;
+  padding: 8px 0;
+  background-color: whitesmoke;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 300px;
 }
 
-.list-item .item{
-    margin-right: auto;
-    padding: 8px;
+.list-item .item {
+  margin-right: auto;
+  padding: 8px;
 }
 
 .list-item .id {
-    padding: 10px;
+  padding: 10px;
 }
 
-.list-item .delete-button{
-    width: 30px; /* Tamaño igual para el botón y el checkbox */
-    font-size: 16px; /* Tamaño del texto dentro del botón (X) */
-    border: none; /* Elimina el borde del botón y el checkbox */
-    background-color: transparent; /* Fondo transparente */
-    cursor: pointer;
-    margin: 0;
+.list-item .delete-button {
+  width: 30px;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 0;
 }
 
 .list-item .task-checkbox {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-ul{
-    list-style: none;
-    padding-left: 0;
+ul {
+  list-style: none;
+  padding-left: 0;
 }
 
-input[type="text"]{
-    width: 100%;
-    padding: 10px 15px;
+input[type="text"] {
+  width: 100%;
+  padding: 10px 15px;
 }
 
-label{
-    font-size: 18px;
-    margin-bottom: -20px;
-    margin-left: 10px;
-    padding-left: 3px;
-    z-index: 1000;
-    background-color: white;
-    width: 43px;
+label {
+  font-size: 18px;
+  margin-bottom: -20px;
+  margin-left: 10px;
+  padding-left: 3px;
+  z-index: 1000;
+  background-color: white;
+  width: 43px;
 }
 
-button{
-    width: 60%;
-    margin: 0 auto;
-    padding: 10px 17px;
-    cursor: pointer;
+button {
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px 17px;
+  cursor: pointer;
 }
-
 
 .test {
-    display: flex;
-    margin: 0;
-    width: 300px;
-    border: 1px solid grey;
-    padding: 5px;
+  display: flex;
+  margin: 0;
+  width: 300px;
+  border: 1px solid grey;
+  padding: 5px;
 }
 
 .test p {
-    margin: 0 5px 0 3px;
-    padding: 0;
+  margin: 0 5px 0 3px;
+  padding: 0;
 }
-
-
-
