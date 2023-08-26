@@ -7,7 +7,7 @@ const doneTaskSpan = document.querySelector(".done-task");
 const toDoList = [];
 
 addItemBtn.addEventListener("click", function () {
-  const newItem = itemInput.value.trim(); // Elimina espacios en blanco al principio y al final
+  const newItem = itemInput.value.trim();
   if (newItem !== "") {
     if (!toDoList.some(task => task.task === newItem)) {
       toDoList.push({ task: newItem, done: false });
